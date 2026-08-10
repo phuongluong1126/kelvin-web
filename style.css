@@ -71,6 +71,14 @@ h1{
     font-weight: 600;
 }
 
-
+.about-image {
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 32%;
+        height: 300px;
+        object-fit: cover;
+    }
+}
 
 
