@@ -1,5 +1,7 @@
 body {
     background-color: #FBF8CC;
+    max-width: 1080px;
+    margin: auto;
 }
 
 header{
@@ -34,9 +36,17 @@ header{
     font-family: poppins;
     button{
         background-color: #F5EE84;
-        width: 82px;
-        height: 34px;
+        width: 164px;
+        height: 68px;
         color: #474306;
+        font-size: 20px;
+        border-radius: 6px;
+        border: 2px solid #474306;
+        margin-top: 16px;
+    }
+    h1,
+    p {
+        margin: 0;
     }
 }
 
@@ -46,6 +56,19 @@ p{
 
 h1{
     font-size: 100px;
+}
+
+.nav_links{
+    font-family: poppins;
+    font-size: 18px;
+    color: #03045E;
+}
+
+.kelvin{
+    font-family: poppins;
+    font-size: 24px;
+    color: #03045E;
+    font-weight: 600;
 }
 
 
